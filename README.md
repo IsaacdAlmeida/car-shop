@@ -59,6 +59,14 @@ Além de utilizar o mocha, chai e sinnon, também utilizei a biblioteca zod para
 
 Também foi importante a utilização da biblioteca NYC para garantir a cobertura de testes em todo o arquivo, dessa forma, podemos manter um comportamento padrão de nossa aplicação e em caso de alguma alteração de código na nossa API os testes unitários irão dizer se tudo ainda funciona.
 
+<p align="center">
+<img src="./samples/coverage.png" alt="coverage"/>
+</p>
+<p align="center">
+Atual Cobertura de Testes da Aplicação conferida linha a linha
+</p>
+<hr />
+
 ## Instruções para utilizar a aplicação
 
 Para utilizar a aplicação você precisará ter o [Docker](https://docs.docker.com/engine/install/ubuntu/) instalado.
