@@ -63,7 +63,7 @@ Também foi importante a utilização da biblioteca NYC para garantir a cobertur
 <img src="./samples/coverage.png" alt="coverage"/>
 </p>
 <p align="center">
-Atual Cobertura de Testes da Aplicação conferida linha a linha
+Atual cobertura de testes. Os arquivos são monitorados linha por linha.
 </p>
 <hr />
 
