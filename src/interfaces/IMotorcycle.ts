@@ -8,7 +8,7 @@ export const MotorcycleZodSchema = VehicleZodSchema.extend({
     required_error: 'Engine Capacity is required',
     invalid_type_error: 'Engine Capacity must be a number',
   }).int().positive()
-    .lte(2500, { message: 'ngine Capacity must be lesser or equal than 1900' })
+    .lte(2500, { message: 'ngine Capacity must be lesser or equal than 1900' }),
 });
 
 export type IMotorcycle = z.infer<typeof MotorcycleZodSchema>;
