@@ -6,7 +6,7 @@ import CarController from '../../../controllers/cars.controller';
 import CarService from '../../../services/cars.service';
 import CarModel from '../../../models/cars.model';
 
-describe('Frame Controller', () => {
+describe('Car Controller', () => {
   const carModel = new CarModel()
   const carService = new CarService(carModel);
   const carController = new CarController(carService);
@@ -34,6 +34,4 @@ describe('Frame Controller', () => {
       expect((res.json as sinon.SinonStub).calledWith(carMock)).to.be.true;
     });
   });
-
-
 });
