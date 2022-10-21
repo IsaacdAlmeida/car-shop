@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { VehicleZodSchema } from './IVehicle';
 
-const CarZodSchema = VehicleZodSchema.extend({
+export const CarZodSchema = VehicleZodSchema.extend({
   doorsQty: z.number({
     required_error: 'Year is required',
     invalid_type_error: 'Year must be a number',
